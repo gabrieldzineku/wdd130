@@ -50,7 +50,7 @@ padding: 1rem;
 background-color: var(--nav-a-color);
 color: var(--aside-color);
 text-align: var(--aside-text-aline);
-position: inherit;
+position: relative;
 }
 aside img {
     width: 200px;
