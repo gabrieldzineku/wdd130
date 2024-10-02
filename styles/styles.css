@@ -57,7 +57,7 @@ aside img {
 }
 /*new update 1-10-2024*/
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 40px;
     left: 10px;
 }
