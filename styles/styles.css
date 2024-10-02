@@ -56,7 +56,7 @@ aside img {
 }
 /*new update 1-10-2024*/
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 40px;
     left: 10px;
 }
@@ -65,7 +65,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-/* Class Selectors*/
+/*Class Selectors*/
 .box {
     margin: var(--aside-margin);
     border: var(--aside-border);
