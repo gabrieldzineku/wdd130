@@ -36,9 +36,8 @@ section {
 }
 .hero img {
     display: block;
-    width: 200px;
+    width: 100%;
     height: auto;
-    float: right;
 }
 .hero h1 {
     position: absolute;
