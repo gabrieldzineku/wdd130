@@ -1,0 +1,58 @@
+:root {
+    --heading-background-color: #5efc8d;
+    --nav-color: #ebe3e2;
+    --main-color: #ffff;
+    --text-color: #2f007e;
+
+
+}
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: var(--nav-color);
+    padding: 10px;
+}
+div {
+    background-color: var(--main-color);
+}
+h1 {
+    color: var(--heading-background-color);
+    position: ;
+}
+article {
+    color: var(--text-color);
+    position: ;
+}
+h2 {
+    color: var(--heading-background-color);
+}
+section {
+    color: var(--text-color);
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 200;
+    height: auto;
+    float: right;
+}
+.hero h1 {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    background-color: rgb(136, 136, 74);
+    padding: 6px;
+}
+.hero article {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    right: 60px;
+    background-color: rgba(184, 211, 148, 0.5);
+    padding: 10px;
+}
