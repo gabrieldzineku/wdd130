@@ -37,7 +37,7 @@ section {
 }
 .hero img {
     display: block;
-    width: 200;
+    width: 200px;
     height: auto;
     float: right;
 }
@@ -48,7 +48,7 @@ section {
     background-color: rgb(136, 136, 74);
     padding: 6px;
 }
-.hero article {
+article {
     position: absolute;
     top: 80px;
     left: 60px;
