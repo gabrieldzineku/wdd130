@@ -89,7 +89,7 @@ header, .grid, footer {
 .grid {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
 }
 main {
     grid-column: 2 / 3;
