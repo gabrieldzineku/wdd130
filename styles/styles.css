@@ -18,15 +18,24 @@
 }
 nav {
     background-color: var(--heading-background-color);
-    padding: 10px;
+    padding: 1rem;
+    /*Last update 10/9/2024*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 nav a {
     color: var(--nav-a-color);
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 h1 {
     color: var(--heading-background-color);
+    border-bottom: 1px solid var(--heading-background-color);/*update 9/10/2024*/
 }
 main img {
     width: var(--main-img-width);
@@ -34,20 +43,17 @@ main img {
     border: var(--main-img-border);
     padding: 2px;
     box-shadow: var(--main-img-box-shadow);
-    float: right; /* last update 1-10-2024*/
+    float: right; /* update 1-10-2024*/
 }
 p {
     padding: 0;
-}
-main {
-    max-width: 840px;
 }
 aside {
 width: var(--aside-width);
 margin: var(--aside-margin);
 border: var(--aside-border);
 padding: 1rem;
-background-color: var(--nav-a-color);
+background-color: var(--aside-color);
 color: var(--aside-color);
 text-align: var(--aside-text-aline);
 position: relative;
@@ -60,7 +66,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 40px;
-    left: 10px;
+    left: 6rem;
 }
 footer {
     margin-top: 15px;
@@ -72,6 +78,24 @@ footer {
     margin: var(--aside-margin);
     border: var(--aside-border);
     padding: 1rem;
-    background-color: var(--nav-a-color);
+    background-color: rgba(236, 228, 228, 0.966);
     color: var(--aside-color);
+}
+/*update feature 10/9/2024*/
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+main {
+    grid-column: 2 / 3;
+    margin: 1rem;
+}
+aside {
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
