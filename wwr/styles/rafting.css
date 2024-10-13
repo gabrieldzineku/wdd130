@@ -5,7 +5,6 @@
     --main-color: #eceef7;;
 }
 * {
-    text-decoration: none;
     margin: 0;
     padding: 0;
 }
@@ -18,6 +17,9 @@
     display: block;
     font-size: 2rem;
     font-weight: 100;
+}
+a {
+    text-decoration: none;
 }
 .navigation a:hover {
     color: #073b07;
