@@ -2,7 +2,6 @@
 :root {
     --nav-color: white;
     --nav-background-color: rgb(14, 13, 36);
-    --main-color: #eceef7;;
 }
 * {
     margin: 0;
@@ -92,8 +91,7 @@ header {
     box-shadow: 0 0 2rem rgb(8, 7, 36);
 }
 .infor p {
-    display: flrx;
-    justify-content: end;
+    display: flex;
 }
 .sociallinks {
     display: flex;
@@ -105,8 +103,8 @@ header {
 form {
     padding: 0;
     box-sizing: border-box;
-    width: 600;
-    margin: 0 auto;
+    width: 800px;
+    margin: 20px 3rem;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.02);
     border-radius: 0.75rem;
@@ -122,9 +120,10 @@ fieldset {
     padding: 1rem;
 }
 legend {
-    font-size: 1.3rem;
-    color: rgb(14, 13, 36);
+    font-size: 1.5rem;
+    color: rgb(68, 62, 172);
     padding: 1px;
+    font-weight: 600;
 }
 label {
     padding: 1rem;
