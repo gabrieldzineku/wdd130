@@ -70,6 +70,8 @@ header {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     font-size: 1.2rem;
+    border-bottom: 0.7rem solid rgb(68, 62, 172);
+    padding: 30px;
 }
 .infor p {
     border: 1px solid #000;
