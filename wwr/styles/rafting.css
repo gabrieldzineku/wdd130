@@ -43,6 +43,7 @@ section {
     display: block;
     width: 100%;
     height: auto;
+    border-bottom: 20px solid rgb(14, 13, 36);/*new update 10/21/2024*/
 }
 .hero h1 {
     position: absolute;
@@ -65,6 +66,7 @@ article {
 .hero article img {
     float: right;
     width: 200px;
+    border-bottom: #073b07;
 }
 .footer {
     background-color: var(--nav-background-color);
