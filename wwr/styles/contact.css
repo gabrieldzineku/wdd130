@@ -23,6 +23,7 @@ a {
 .navigation a:hover {
     color: #073b07;
     text-decoration: underline;
+    box-shadow: 1px 2px 6px red;
 }
 h1 {
     color: rgb(12, 8, 80);

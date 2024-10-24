@@ -48,26 +48,51 @@ section {
 }
 .hero h1 {
     position: absolute;
-    top: 5px;
+    top: 5rem;
     left: 5.5rem;
     padding: 6px;
     text-align: center;
 }
+.hero h2 {
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+    color: white;
+    font-size: 2rem;
+    padding: 6px;
+}
 article {
     position: absolute;
-    top: 7rem;
-    left: 60px;
-    right: 60px;
-    background-color: rgba(184, 211, 148, 0.4);
+    top: 25%;
+    right: 2%;
     padding: 10px;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 300;
+    width: 35%;
+    height: 25%;
+    color: rgb(255, 255, 255);
 }
 
 .hero article img {
-    float: right;
-    width: 200px;
+    float: left;
+    width: 300px;
     border-bottom: #073b07;
+    padding-right: 5px;
+}
+.hero a {
+    position: absolute;
+    top: 70%;
+    right: 70%;
+    font-size: 2rem;
+    background-color: rgb(14, 13, 36);
+    font-weight: 600;
+    color: white;
+    border-radius: 2.6rem;
+    padding: 0.8rem;
+}
+.hero a:hover {
+    background-color: white;
+    color: rgb(14, 13, 36);
 }
 .footer {
     background-color: var(--nav-background-color);
@@ -99,61 +124,84 @@ header {
 }
 .middle {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr auto;
     align-items: center;
     padding: 3rem;
-    border-bottom: 1rem solid rgb(14, 13, 36);
 }
 .middle h2 {
     grid-column: 1 / -1;
     z-index: 1;
-
+    font-size: 2.2rem;
+    color: rgb(14, 13, 36);
+    font-weight: 100;
+    padding: 10px;
+    text-decoration: underline;
 }
-.middle p, .middle .p2 {
-    text-align: justify;
+.middle h2, .middle p {
+    text-align: center;
 }
 .middle p {
-    grid-column: 1 / 2;
-    align-self: center;
+    grid-column: 1 / -1;
+    padding: 20px;
+    font-size: 1.4rem;
+    font-weight: 100;
 }
-.middle .p2 {
-    grid-column: 3 / 4;
-    align-self: center;
+.middle .pic1 {
+    grid-column: 1 / 2;
+    width: 277px;
+    margin: 20px;
+    padding-left: 6rem;
+}
+.middle .pic2 {
+    grid-column: 2 / 3;
+    width: 431px;
+    padding-right: 6rem;
+}
+.middle figure {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 2px;
+}
+.middle figcaption {
+    color: white;
+    background-color: rgb(14, 13, 36);
 }
 .middle img {
-    grid-column: 2 / 3;
-    justify-self: center;
-    width: 250px;
-    height: auto;
-    margin: 10px;
+    box-shadow: 0 0 3rem rgb(14, 13, 36);
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
 .adventure {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr auto;
     align-items: center;
+    padding: 3rem;
 }
 .adventure h2{
     grid-column: 1 / -1;
+    padding: 20px;
+    font-weight: 100;
+    text-align: center;
 }
-.adventure image {
+.adventure .image1 {
     grid-column: 1 / 2;
+    width: 188px;
+    padding-left: 2rem;
 }
 .adventure .image2 {
     grid-column: 2 / 3;
+    width: 420px;
+    padding-right: 5rem;
+    padding-bottom:2rem
 }
 .adventure .image3 {
     grid-column: 3 / 4;
-    padding: 2px;
-}
-.adventure .image4 {
-    grid-column: 4 / 5;
-}
-.adventure .image5 {
-    grid-column: 5 / 6;
+    width: 270px;
 }
 .adventure figure {
     border: 2px;
     margin: 2px;
+    font-size: 1.2rem;
 }
 .adventure figcaption {
     background-color: rgb(14, 13, 36);
@@ -161,6 +209,49 @@ header {
 }
 .adventure img {
     box-shadow: 0 0 3rem rgb(8, 7, 36);
+    padding: 0.6rem;
+}
+.summry {
+    background-color: #eceef7;
+    display: grid;
+    font-size: 1.5rem;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+}
+.newsletter {
+    font-size: 2rem;
+    background-color: rgb(14, 13, 36);
+    margin: 10px;
+    margin-right: 55%;
+    color: white;
+    border-radius: 0.5rem;
+}
+form {
+    box-sizing: border-box;
+    width: 600px;
+    padding: 20px;
+    display: grid;
+}
+.newsletter-form {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+button {
+    margin: 0.5rem;
+    background-color: rgb(14, 13, 36);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    width: 20%;
+}
+button:hover {
+    color: rgb(14, 13, 36);
+    background-color: white;
+}
+.special {
+    text-decoration: underline;
+    font-size: 2rem;
 }
 .sociallinks {
     display: flex;
@@ -168,4 +259,7 @@ header {
 }
 .sociallinks a {
     margin-left: 10px;
+}
+main {
+    background-color: #eceef7;
 }
