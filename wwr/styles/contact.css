@@ -13,7 +13,7 @@
 }
 .navigation a{
     color: var(--nav-color);
-    display: block;
+    display: inline-block;
     font-size: 2rem;
     font-weight: 100;
 }
@@ -21,9 +21,9 @@ a {
     text-decoration: none;
 }
 .navigation a:hover {
-    color: #073b07;
+    color: var(--nav-background-color);
     text-decoration: underline;
-    box-shadow: 1px 2px 6px red;
+    background-color: white;
 }
 h1 {
     color: rgb(12, 8, 80);
@@ -54,16 +54,8 @@ header {
     height: auto;
     box-shadow: 0 0 5rem rgb(0, 0, 0);
 }
-.navigation {
-    display: flex;
-    list-style: none;
-}
 .navigation a {
-    flex: 1 1 100%;
-    justify-content: flex-end;
-}
-.navigation a {
-    display: block;
+    display: inline-block;
     padding: 20px;
 }
 .infor {

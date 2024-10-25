@@ -12,7 +12,7 @@
     background-color: var(--nav-background-color);
     padding: 30px;
 }
-.navigation a{
+.navigation a {
     color: var(--nav-color);
     display:inline-block;
     font-size: 2rem;
@@ -76,7 +76,6 @@ article {
 .hero article img {
     float: left;
     width: 300px;
-    border-bottom: #073b07;
     padding-right: 5px;
 }
 .hero a {
