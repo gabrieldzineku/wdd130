@@ -75,7 +75,11 @@ section {
     top: 3.5rem;
     color: var(--nav-color);
     text-align: center;
-    
+}
+.footer a {
+    font-size: 2rem;
+    position: relative;
+    color: white;
 }
 /*updated feature 10,11,12/10/2024*/
 header {
