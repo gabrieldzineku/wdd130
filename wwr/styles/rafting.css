@@ -169,3 +169,458 @@ header {
 .sociallinks a {
     margin-left: 10px;
 }
+.welcome {
+    color: var(--nav-color);
+    font-size: 3.5rem;
+}
+h2 {
+    text-align: center;
+}
+section {
+    font-size: medium;
+    background-color: var(--main-color);
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 20px solid rgb(14, 13, 36);/*new update 10/21/2024*/
+}
+.hero .welcome {
+    position: absolute;
+    top: 5rem;
+    left: 5.5rem;
+    padding: 6px;
+    text-align: center;
+}
+.hero h2 {
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+    color: white;
+    font-size: 2rem;
+    padding: 6px;
+}
+.hero .home {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 300;
+    width: 35%;
+    height: 25%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(184, 211, 148, 0.4);
+    border-radius: 80rem;
+}
+
+.hero .home img {
+    float: left;
+    width: 300px;
+    padding-right: 5px;
+}
+.hero .call {
+    position: absolute;
+    top: 70%;
+    right: 70%;
+    font-size: 2rem;
+    background-color: rgb(14, 13, 36);
+    font-weight: 600;
+    color: white;
+    border-radius: 2.6rem;
+    padding: 0.8rem;
+}
+.hero .call:hover {
+    background-color: white;
+    color: rgb(14, 13, 36);
+}
+.raft-view {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 3rem;
+}
+.raft-view h2 {
+    grid-column: 1 / -1;
+    z-index: 1;
+    font-size: 2.2rem;
+    color: rgb(14, 13, 36);
+    font-weight: 100;
+    padding: 10px;
+    text-decoration: underline;
+}
+.raft-view h2, .raft-view p {
+    text-align: center;
+}
+.raft-view p {
+    grid-column: 1 / -1;
+    padding: 20px;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+.raft-view .pic1 {
+    grid-column: 1 / 2;
+    width: 277px;
+    margin: 20px;
+    padding-left: 6rem;
+}
+.raft-view .pic2 {
+    grid-column: 2 / 3;
+    width: 431px;
+    padding-right: 6rem;
+}
+.raft-view figure {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 2px;
+}
+.raft-view figcaption {
+    color: white;
+    background-color: rgb(14, 13, 36);
+}
+.raft-view img {
+    box-shadow: 0 0 3rem rgb(14, 13, 36);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.home-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    align-items: center;
+    padding: 3rem;
+}
+.home-view h2{
+    grid-column: 1 / -1;
+    padding: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.home-view .view1 {
+    grid-column: 1 / 2;
+    width: 188px;
+    padding-left: 2rem;
+}
+.home-view .view2 {
+    grid-column: 2 / 3;
+    width: 420px;
+    padding-right: 5rem;
+    padding-bottom:2rem
+}
+.home-view .view3 {
+    grid-column: 3 / 4;
+    width: 270px;
+}
+.home-view figure {
+    border: 2px;
+    margin: 2px;
+    font-size: 1.2rem;
+}
+.home-view figcaption {
+    background-color: rgb(14, 13, 36);
+    color: white;
+}
+.home-view img {
+    box-shadow: 0 0 3rem rgb(8, 7, 36);
+    padding: 0.6rem;
+}
+.summry {
+    background-color: #eceef7;
+    display: grid;
+    font-size: 1.5rem;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+}
+.newsletter {
+    font-size: 2rem;
+    background-color: rgb(14, 13, 36);
+    margin: 10px;
+    margin-right: 55%;
+    color: white;
+    border-radius: 0.5rem;
+}
+.newsletter form {
+    box-sizing: border-box;
+    width: 600px;
+    padding: 20px;
+    display: grid;
+}
+.newsletter-form {
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.newsletter button {
+    margin: 0.5rem;
+    background-color: rgb(14, 13, 36);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    width: 20%;
+}
+button:hover {
+    color: rgb(14, 13, 36);
+    background-color: white;
+}
+.special {
+    text-decoration: underline;
+    font-size: 2rem;
+}
+main {
+    background-color: #eceef7;
+}
+.contact {
+    color: rgb(12, 8, 80);
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+/*updated feature 10,11,12/10/2024*/
+.infor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: 0.7rem solid rgb(68, 62, 172);
+    padding: 30px;
+}
+.infor p {
+    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.02);
+    margin-right: 20px;
+}
+
+.infor figure {
+    border: 2px;
+    margin: 2px;
+}
+.infor figcaption {
+    background-color: rgb(14, 13, 36);
+    color: white;
+}
+.infor img {
+    box-shadow: 0 0 2rem rgb(8, 7, 36);
+}
+.infor p {
+    display: flex;
+}
+.form-us form {
+    padding: 0;
+    box-sizing: border-box;
+    width: 800px;
+    margin: 20px 3rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 0.75rem;
+    background-color: white;
+    font-size: 1.2rem;
+    display: grid;
+}
+.form-us fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    padding: 1rem;
+}
+.form-us legend {
+    font-size: 1.5rem;
+    color: rgb(68, 62, 172);
+    padding: 1px;
+    font-weight: 600;
+}
+.form-us label {
+    padding: 1rem;
+    text-align: right;
+}
+.form-us input, .form-us textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.form-us input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+.form-us button {
+    margin: 0.7rem;
+    background-color: rgb(14, 13, 36);
+    color: #eee;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    width: 25%;
+    align-items: center;
+}
+.form-us button:hover {
+    background-color: #29e211;
+}
+.form-us textarea {
+    width: 46%;
+}
+.form-us .form-items {
+    display: grid;
+    align-items: center;
+}
+.group1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem;
+}
+.group2 {
+    grid-template-columns: 1fr 2fr;
+}
+.hero .triptab {
+    color: var(--nav-color);
+    font-size: 3.5rem;
+    top: 10%;
+    right: 35%;
+    position: absolute;
+}
+h2 {
+    text-align: center;
+}
+section {
+    font-size: medium;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 20px solid rgb(14, 13, 36);/*new update 10/21/2024*/
+}
+.hero .tripview {
+    position: absolute;
+    top: 5rem;
+    left: 20%;
+    padding: 6px;
+    text-align: center;
+}
+.hero a {
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    font-size: 2rem;
+    background-color: rgb(14, 13, 36);
+    font-weight: 600;
+    color: white;
+    border-radius: 2.6rem;
+    padding: 0.8rem;
+}
+.hero a:hover {
+    background-color: white;
+    color: rgb(14, 13, 36);
+}
+
+footer a{
+    font-size: 2rem;
+    color: white;
+    position: relative;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(14, 13, 36);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+caption {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+thead {
+    background-color: rgb(228, 240, 245);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+td, th {
+    border: 1px solid rgb(160, 160, 160);
+    padding: 8px 10px;
+}
+td:last-of-type {
+    text-align: center;
+}
+tbody > tr:nth-last-of-type(even) {
+    background-color: rgb(14, 13, 36);
+    color: white;
+    font-weight: 600;
+}
+
+.middle-grid {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 20px;
+}
+.middle-grid table {
+    grid-column: 1 / 2;
+}
+.middle-grid .tabview {
+    grid-column: 2 / 3;
+    width: 400px;
+    padding: 3rem
+
+}
+.middle-grid figure {
+    border: 2px;
+    margin: 2px;
+    font-size: 1.5rem;
+}
+.middle-grid figcaption {
+    background-color: rgb(14, 13, 36);
+    color: white;
+}
+.middle-grid img {
+    box-shadow: 0 0 3rem rgb(8, 7, 36);
+    padding: 13px;
+    border-radius: 2rem;
+}
+
+.rafting-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 3rem;
+}
+.type1 {
+    grid-column: 1 / 2;
+    width: 450px;
+}
+.type2 {
+    grid-column: 2 / 3;
+    width: 450px;
+    padding-bottom: 15px;
+}
+.type3 {
+    grid-column: 1 / 2;
+    width: 450px;
+}
+.type4 {
+    grid-column: 2 / 3;
+    width: 450px;
+    padding-bottom: 15px;
+}
+.type5 {
+    grid-column: 1 / 2;
+    width: 450px;
+}
+.type6 {
+    grid-column: 2 / 3;
+    width: 450px;
+}
+.rafting-types figure {
+    font-size: 1.5rem;
+    color: white;
+}
+.rafting-types figcaption {
+    background-color: rgb(14, 13, 36);
+    color: white;
+    font-weight: 600;
+}
+main {
+    background-color: #eceef7;
+}

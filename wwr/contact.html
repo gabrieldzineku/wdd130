@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/rafting.css">
     </head>
     <body>
         <header>
@@ -22,7 +22,7 @@
             </nav>
         </header>
         <main>
-            <h1>Contact Us Now</h1>
+            <h1 class="contact">Contact Us Now</h1>
             <div class="infor">
                 <p>
                     Company information <br> 1123 address <br> Phone: 0542324410 <br> Email:gabrieldzineku192@gmail.com <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.7680494110023!2d-0.21320492627590112!3d5.601245433195677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a338663725d%3A0x4758e01c558b8285!2sBlack%20Star%20St%2C%20Accra!5e0!3m2!1sen!2sgh!4v1729384614217!5m2!1sen!2sgh" width="200" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -40,37 +40,39 @@
                     <figcaption>Save Guide</figcaption>
                 </figure>
             </div>
-            <form>
-                <fieldset>
-                    <legend>Login To Contact us</legend>
-                    <div class="form-item group1">
-                        <label for="fullname"> Full Name</label>
-                        <input type="text" id="fullname" name="fullname">
-                    </div>
-                    <div class="form-item group1">
-                        <lable for="usermail">Email</lable>
-                        <input type="email" id="usermail" name="usermail">
-                    </div>
-                    <div class="form-item group2">
-                        <p class="reason">Rrason for visit</p>
-                        <label for="general">General Inquiry</label>
-                        <input type="radio" id="general" name="general">
-                        <label for="reservation">Reservation Question</label>
-                        <input type="radio" id="reservation" name="reservation">
-                        <label for="sugessions">Website Sugessions</label>
-                        <input type="radio" id="sugessions" name="sugessions">
-                    </div>
-                    <div class="form-item group2">
-                        <label for="message">Leave a message</label>
-                        <textarea id="message" rows="4" placeholder="comment"></textarea>
-                    </div>
-                    <div class="form-item group2">
-                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                        <input type="checkbox" id="subscribe" name="subscribe">
-                    </div>
-                </fieldset>
-                <button type="submit">Press Send</button>
-            </form>
+            <div class="form-us">
+                <form>
+                    <fieldset>
+                        <legend>Login To Contact us</legend>
+                        <div class="form-item group1">
+                            <label for="fullname"> Full Name</label>
+                            <input type="text" id="fullname" name="fullname">
+                        </div>
+                        <div class="form-item group1">
+                            <lable for="usermail">Email</lable>
+                            <input type="email" id="usermail" name="usermail">
+                        </div>
+                        <div class="form-item group2">
+                            <p class="reason">Rrason for visit</p>
+                            <label for="general">General Inquiry</label>
+                            <input type="radio" id="general" name="general">
+                            <label for="reservation">Reservation Question</label>
+                            <input type="radio" id="reservation" name="reservation">
+                            <label for="sugessions">Website Sugessions</label>
+                            <input type="radio" id="sugessions" name="sugessions">
+                        </div>
+                        <div class="form-item group2">
+                            <label for="message">Leave a message</label>
+                            <textarea id="message" rows="4" placeholder="comment"></textarea>
+                        </div>
+                        <div class="form-item group2">
+                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                        </div>
+                    </fieldset>
+                    <button type="submit">Press Send</button>
+                </form>
+            </div>
         </main>
         <footer class="footer">
             <p>©2024 Adventures of Stream Seekers worldwide | Gabriel Dzineku</p>
